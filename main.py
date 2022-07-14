@@ -157,7 +157,7 @@ def main():
                         holiday = Holiday(name, date)
                         
                         if holiday not in holidayList.innerHolidays:
-                            holidayList.addHoliday(Holiday)
+                            holidayList.addHoliday(holiday)
 
                             print('')
                             print(f'{name} ({date}) has been successfully added.')
