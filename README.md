@@ -1,4 +1,4 @@
-# holiday-manager
+# Holiday Manager
 
 ## **Description**
 
@@ -14,10 +14,10 @@ Uses [timeanddate.com](https://www.timeanddate.com/holidays/us/) for holiday dat
 git clone https://github.com/ColeBallard/holiday-manager
 ```
 
-2. Install the latest version of python.
-[Downloads](https://www.python.org/downloads/)
+2. Install the latest version of python. [Downloads.](https://www.python.org/downloads/)
 
 3. Install dependencies.
+
 ```shell
 pip install beautifulsoup4
 pip install requests
@@ -26,11 +26,13 @@ pip install requests
 4. [Create OpenWeather account.](https://home.openweathermap.org/users/sign_up)
 
 5. Create config.py file.
+
 ```shell
 touch data/config.py
 ```
 
 6. Fill in config.py file with your own variable values.
+
 ```dosini
 scraped = 
 locationConfig = 
@@ -40,6 +42,7 @@ openWeatherKey =
 ```
 
 7. Run the python file.
+
 ```shell
 C:/Users/YourName/holiday-manager/main.py
 ```
